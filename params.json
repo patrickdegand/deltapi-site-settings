@@ -1,0 +1,14 @@
+{
+    "name": "DeltaPi Site Settings",
+    "alias": "deltapi-site-settings",
+    "version": 6.1,
+    "minAppVersion": "4.10.17",	
+    "appScript": true,
+	"dependencies": [
+        "static/style.css",
+		"static/depends.js"
+    ],
+	"coreScript" : false,
+	"description":"Change the settings of site/pages/current page.",
+	"logo":"deltapi.svg"
+}
