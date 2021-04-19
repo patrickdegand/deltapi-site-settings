@@ -1,5 +1,5 @@
 {
-    "name": "DeltaPi Site Settings",
+    "name": "DeltaPi Site Settings 6.1",
     "alias": "deltapi-site-settings",
     "version": 6.1,
     "minAppVersion": "4.10.17",	
@@ -9,6 +9,6 @@
 		"static/depends.js"
     ],
 	"coreScript" : false,
-	"description":"Change the settings of site/pages/current page.",
+	"description":"Change the settings of site/pages/current page. <a href='https://patrickdegand.github.io/deltapi/'>Learn more...</a>",
 	"logo":"deltapi.svg"
 }
