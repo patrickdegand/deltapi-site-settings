@@ -10,7 +10,11 @@ defineM("deltapi-site-settings",function(e,a,b){
 				if(mbrApp.projectSettings["spellingSwitch"] === undefined){
 					mbrApp.projectSettings["spellingSwitch"] = true;
 				};
+				if(mbrApp.projectSettings["site_lang"] === undefined||mbrApp.projectSettings["site_lang"] =="undefined"){
+					mbrApp.projectSettings["site_lang"] = "en";
+				};
 				a.Core.$body.find('.template').attr('spellcheck',mbrApp.projectSettings.spellingSwitch);
+				
 			},			
 			load: function(){
 				if(Bridge.version.substr(0,1)=="4"){

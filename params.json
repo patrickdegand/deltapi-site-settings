@@ -1,7 +1,7 @@
 {
-    "name": "DeltaPi Site Settings 6.1",
+    "name": "DeltaPi Site Settings 6.2",
     "alias": "deltapi-site-settings",
-    "version": 6.1,
+    "version": 6.2,
     "minAppVersion": "4.10.17",	
     "appScript": true,
 	"dependencies": [
